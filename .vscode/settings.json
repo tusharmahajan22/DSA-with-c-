@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "queue": "cpp",
+        "iosfwd": "cpp",
+        "ios": "cpp",
+        "stack": "cpp",
+        "__hash_table": "cpp",
+        "unordered_map": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
