@@ -15,7 +15,7 @@ void uniqeelem(int arr[],int n){
 
 int main (){
 
-    int arr[7]={2,3,1,6,3,6,2};
+    int arr[7]={2,5,1,6,3,6,2};
     uniqeelem(arr,7);
 
     
