@@ -53,6 +53,6 @@ int tatata(int arr[],int ele){
 
 int main() {
     int arr[7] = {4,5,6,7,0,1,2};
-    int pivotele=getPivot(arr, 7);
+    int pivotele=getPivot(arr, 5);
     cout<<tatata(arr,pivotele);
 }

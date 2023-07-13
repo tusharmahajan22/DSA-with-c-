@@ -18,8 +18,6 @@ int main (){
     int arr[7]={2,5,1,6,3,6,2};
     uniqeelem(arr,7);
 
-    
-
     return 0;
 } 
 
