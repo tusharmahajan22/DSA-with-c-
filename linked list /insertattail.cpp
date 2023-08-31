@@ -34,6 +34,17 @@ void insertattail(node* &tail,int d){
 
 }
 
+void placeatatanyposition(node* &head,int posit,int d){
+    node* temp=head;
+    int cnt=1;
+    while(cnt<(posit-1)){
+        temp=temp->next;
+    }
+    node* nodetoinsert=new node(d);
+    nodetoinsert->next=temp->next;
+    temp->next=nodetoinsert;
+}
+
 void print(node* &head){
     node* bro=head;
 

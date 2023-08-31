@@ -26,9 +26,9 @@ void insertathead(node* &head, int d)
 }
 
 void print(node* &head){
-    node* bro=head;
+    node* temp=head;
 
-    while(bro != NULL){
+    while(temp != NULL){
         cout<<bro->data<<" ";
         bro=bro->next;
     }
